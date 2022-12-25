@@ -40,6 +40,9 @@ inline long long next_bigger_number_with_the_same_digits_custom(long long number
     {
         return -1;
     }
+
+    std::cout << "i = " << i << std::endl;
+    std::cout << "j = " << j << std::endl;
     
     // find the smallest digit that is greater than number_str[j]
     int k = number_str.size() - 1;
